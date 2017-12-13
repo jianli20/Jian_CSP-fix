@@ -31,7 +31,6 @@
 		CA7AAE311FE1B90B00C265F3 /* extra sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CA7AAE2B1FE1B90700C265F3 /* extra sound.mp3 */; };
 		CA7AAE321FE1B90B00C265F3 /* invader sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CA7AAE2C1FE1B90700C265F3 /* invader sound.mp3 */; };
 		CA7AAE331FE1B90B00C265F3 /* laser sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CA7AAE2D1FE1B90800C265F3 /* laser sound.mp3 */; };
-		CA7AAE341FE1B90B00C265F3 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = CA7AAE2E1FE1B90B00C265F3 /* Sounds */; };
 		CA7AAE371FE1B91500C265F3 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7AAE351FE1B91400C265F3 /* Utilities.swift */; };
 		CA7AAE381FE1B91500C265F3 /* StarField.sks in Resources */ = {isa = PBXBuildFile; fileRef = CA7AAE361FE1B91400C265F3 /* StarField.sks */; };
 		CA7AAE3E1FE1BC0400C265F3 /* InvaderLaser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7AAE391FE1BC0400C265F3 /* InvaderLaser.swift */; };
@@ -71,7 +70,6 @@
 		CA7AAE2B1FE1B90700C265F3 /* extra sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "extra sound.mp3"; path = "Jian_CSP/Resources/extra sound.mp3"; sourceTree = SOURCE_ROOT; };
 		CA7AAE2C1FE1B90700C265F3 /* invader sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "invader sound.mp3"; path = "Jian_CSP/Resources/invader sound.mp3"; sourceTree = SOURCE_ROOT; };
 		CA7AAE2D1FE1B90800C265F3 /* laser sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "laser sound.mp3"; path = "Jian_CSP/Resources/laser sound.mp3"; sourceTree = SOURCE_ROOT; };
-		CA7AAE2E1FE1B90B00C265F3 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 		CA7AAE351FE1B91400C265F3 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		CA7AAE361FE1B91400C265F3 /* StarField.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StarField.sks; sourceTree = "<group>"; };
 		CA7AAE391FE1BC0400C265F3 /* InvaderLaser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvaderLaser.swift; sourceTree = "<group>"; };
@@ -206,7 +204,6 @@
 				CA7AAE2C1FE1B90700C265F3 /* invader sound.mp3 */,
 				CA7AAE2D1FE1B90800C265F3 /* laser sound.mp3 */,
 				CA7AAE2A1FE1B90600C265F3 /* powerup sound.mp3 */,
-				CA7AAE2E1FE1B90B00C265F3 /* Sounds */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -270,7 +267,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA7AAE341FE1B90B00C265F3 /* Sounds in Resources */,
 				CA6A42B91FA256AA00CC5DDE /* LaunchScreen.storyboard in Resources */,
 				CA7AAE331FE1B90B00C265F3 /* laser sound.mp3 in Resources */,
 				CA7AAE381FE1B91500C265F3 /* StarField.sks in Resources */,
