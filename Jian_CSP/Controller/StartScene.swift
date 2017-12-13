@@ -19,7 +19,7 @@ public class StartScene : SKScene
         startButton.name = "start"
         let starField = SKEmitterNode(fileNamed: "StarField")
         starField?.position = CGPoint(x:size.width/2,y:size.height/2)
-        starField?.zPosition = -1000
+        starField?.zPosition = -1
         addChild(starField!)
         addChild(startButton)
     }
@@ -27,7 +27,17 @@ public class StartScene : SKScene
     
     override public func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?)
     {
+        let currentTouch = touches.first
+        let touchLocation = currentTouch?.location(in: self)
+        let touchedNode = self.atPoint(touchLocation!)
         
         
+        if (touchedNode.name == "start")
+            {
+            let gameOverScene = GameScene(size: size)
+            gameOverScene.scaleMode = scaleMode
+            let transitionType = SKTransition.flipHorizontal(withDuration: 1.0)
+                view?.presentScene(gameOverScene, transition: transitionType)
+            }
     }
 }
