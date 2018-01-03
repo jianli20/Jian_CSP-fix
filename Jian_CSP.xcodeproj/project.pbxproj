@@ -40,6 +40,7 @@
 		CA7AAE421FE1BC0400C265F3 /* Projectile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7AAE3D1FE1BC0400C265F3 /* Projectile.swift */; };
 		CAAA0AFD1FC35F19007C72B8 /* Paintable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAA0AFC1FC35F19007C72B8 /* Paintable.swift */; };
 		CAAA0B001FC36025007C72B8 /* isPainted.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAA0AFF1FC36025007C72B8 /* isPainted.swift */; };
+		CACB07231FFD605300E4A4FC /* DeathScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACB07221FFD605300E4A4FC /* DeathScene.swift */; };
 		CADD9F861FD9D37400CFC765 /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADD9F851FD9D37400CFC765 /* ArtCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +80,7 @@
 		CA7AAE3D1FE1BC0400C265F3 /* Projectile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Projectile.swift; sourceTree = "<group>"; };
 		CAAA0AFC1FC35F19007C72B8 /* Paintable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paintable.swift; sourceTree = "<group>"; };
 		CAAA0AFF1FC36025007C72B8 /* isPainted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isPainted.swift; sourceTree = "<group>"; };
+		CACB07221FFD605300E4A4FC /* DeathScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathScene.swift; sourceTree = "<group>"; };
 		CADD9F851FD9D37400CFC765 /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -192,6 +194,7 @@
 				CA7AAE231FE1B8E700C265F3 /* GameScene.swift */,
 				CA7AAE221FE1B8E700C265F3 /* LevelCompleteScene.swift */,
 				CA7AAE241FE1B8E800C265F3 /* StartScene.swift */,
+				CACB07221FFD605300E4A4FC /* DeathScene.swift */,
 			);
 			path = GameController;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				CA7AAE3F1FE1BC0400C265F3 /* Invader.swift in Sources */,
 				CA6A42D81FA25B5C00CC5DDE /* DataandInformation.swift in Sources */,
 				CA6A42E01FA25B9F00CC5DDE /* GlobalImpact.swift in Sources */,
+				CACB07231FFD605300E4A4FC /* DeathScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

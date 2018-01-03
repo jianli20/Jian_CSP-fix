@@ -14,7 +14,7 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
 {
     //MARK: Invader Data
     let rowsOfInvaders : Int = 4
-    var invaderSpeed : Int = 2
+    var invaderSpeed : Int = 30
     var invadersThatCanFire : [Invader] = []
     
     //MARK: Player Data
@@ -134,6 +134,11 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
             levelCompleteScene.scaleMode = scaleMode
             let transitionType = SKTransition.flipHorizontal(withDuration: 0.5)
             view?.presentScene(levelCompleteScene, transition: transitionType)
+        }
+        else
+        {
+            gameLevel = 1
+            newGame()
         }
     }
     
