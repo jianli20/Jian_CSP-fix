@@ -34,7 +34,7 @@ public class DeathScene : SKScene
             let newGameScene = GameScene(size: size)
             newGameScene.scaleMode = scaleMode
             let transitionType = SKTransition.flipHorizontal(withDuration: 0.5)
-            view?,presentScene(newGameScene, transition: transitionType)
+            view?.presentScene(newGameScene, transition: transitionType)
         }
     }
 }

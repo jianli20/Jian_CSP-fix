@@ -100,7 +100,7 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
             self.fireInvaderBullet()
         }
         let waitToFireInvaderBullet = SKAction.wait(forDuration: 2.5)
-        let invaderFire = SKAction.sequence([fireBullet.waitToFireInvaderBullet])
+        let invaderFire = SKAction.sequence([fireBullet,waitToFireInvaderBullet])
         let repeatForeverAction = SKAction.repeatForever(invaderFire)
         run(repeatForeverAction)
     }
@@ -225,7 +225,7 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
             print("Invader and Player Collision Contact")
         }
         if ((firstBody.categoryBitMask & CollisionCategories.Player != 0) &&
-            (secondBody.categoryBitMask & CollisionCategories.InvaderLaser != 0))
+            (secondBody.categoryBitMask & CollisionCategories.InvaderBullet != 0))
         {
             player.die()
         }
@@ -235,7 +235,7 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
             player.kill()
         }
         if ((firstBody.categoryBitMask & CollisionCategories.Invader != 0) &&
-            (secondBody.categoryBitMask & CollisionCategories.PlayerLaser != 0))
+            (secondBody.categoryBitMask & CollisionCategories.PlayerBullet != 0))
         {
             if (contact.bodyA.node?.parent == nil || contact.bodyB.node?.parent == nil)
             {
