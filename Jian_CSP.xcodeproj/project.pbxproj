@@ -154,7 +154,6 @@
 			isa = PBXGroup;
 			children = (
 				CA7AAE361FE1B91400C265F3 /* StarField.sks */,
-				CA7AAE351FE1B91400C265F3 /* Utilities.swift */,
 				CA6A42B21FA256AA00CC5DDE /* Main.storyboard */,
 				CA6A42B71FA256AA00CC5DDE /* LaunchScreen.storyboard */,
 				CA0C34ED1FD72A0B00BD02BA /* DrawingView.swift */,
@@ -179,6 +178,7 @@
 		CA6A42C31FA2589000CC5DDE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CA7AAE351FE1B91400C265F3 /* Utilities.swift */,
 				CA7AAE281FE1B8FC00C265F3 /* Sounds */,
 				CA6A42BA1FA256AA00CC5DDE /* Info.plist */,
 				CA6A42B51FA256AA00CC5DDE /* Assets.xcassets */,
